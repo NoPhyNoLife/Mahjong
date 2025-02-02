@@ -1,0 +1,45 @@
+# Python 虚拟环境
+.venv/
+env/
+venv/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 编译生成的文件
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 日志文件
+*.log
+
+# 数据库文件
+*.sqlite3
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# VS Code 配置
+.vscode/
+
+# PyCharm 配置
+.idea/
+
+# 系统文件（macOS 和 Windows）
+.DS_Store
+Thumbs.db
+
+# 环境变量文件（如果有敏感信息）
+.env
