@@ -28,6 +28,9 @@ dist/
 *.swo
 *~
 
+# 测试代码
+test/
+
 # Jupyter Notebook 检查点
 .ipynb_checkpoints/
 
