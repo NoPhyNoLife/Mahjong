@@ -11,7 +11,7 @@ class StateManager:
         self.discards = [[] for _ in range(player_number)]  # 建立每个玩家的弃牌堆
         self.melds = [[] for _ in range(player_number)]     # 副露，即吃碰杠信息
 
-        self.deck_list = deck_counter.load_deck("recourse/deck")
+        self.deck_list = deck_counter.load_deck("resources/deck")
         self.deck_counter = deck_counter.DeckCounter(self.deck_list)
 
 
@@ -95,7 +95,7 @@ class StateManager:
     def handle_second_phase(self):
         # 处理第二阶段的本方行动
         while True:
-            event = input("输入发生的事件: ").upper()
+            event = input("输入发生的事件(如1 PENG, N代表无事发生):").upper()
             if event == "N":
                 # 无事发生，回合正常结束
                 break
